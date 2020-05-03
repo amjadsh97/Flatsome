@@ -67,6 +67,10 @@ body {
     color: #343434;
 }
 
+.search-btn i {
+    margin-left: -12px;
+}
+
 .sign-up a{
     border: 1px solid;
     border-radius: 15px;
