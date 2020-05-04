@@ -1,20 +1,24 @@
 .hero {
     position: relative;
+    background: url("https://picsum.photos/907/310") no-repeat;
+    background-size: cover;
+    min-height: 500px;
+
+
 }
 
-.hero img {
-    width: 100%;
-    display: block;
+.inner-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .hero-article {
     background-color: #ffffff;
     max-width: 400px;
-    position: absolute;
-    top: 70px;
-    left: 255px;
     padding: 30px 20px;
-    box-shadow: 1px 2px 10px #3e3e3e;
+    box-shadow: 1px 2px 10px #6d6d6d59;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .tag-article {

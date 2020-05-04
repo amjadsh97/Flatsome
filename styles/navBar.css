@@ -10,7 +10,8 @@ body {
 
 .nav-bar {
     max-width: 1200px;
-    margin: 15px auto 15px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -20,7 +21,13 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
+    margin: 0;
 
+}
+.logo a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
 }
 
 .links {
@@ -41,9 +48,10 @@ body {
 .buy-signup {
     list-style-type: none;
     padding-left: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
-    align-content: center;
+    margin-left: 12px;
 }
 
 .navbar-links:last-child li{
@@ -51,14 +59,17 @@ body {
     margin-right: 2px;
 }
 
-.nav-bar ul>li {
-    margin: 0 0 0 12px;
+.nav-bar li:not(:first-child) {
+    margin-left: 12px;
+}
+
+.nav-bar li{
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
 }
 
-.nav-bar a {
+.links a {
     text-decoration: none;
     color: #7D7D7D;
 }
@@ -72,7 +83,7 @@ body {
 }
 
 .sign-up a{
-    border: 1px solid;
+    border: 1.5px solid;
     border-radius: 15px;
     padding: 5px 10px;
     color: #D26E4B;
@@ -91,7 +102,7 @@ body {
 .search-btn {
     margin: 0 10px;
 }
-i::after {
+.navbar-links i::after {
     display: block;
     content: "";
     height: 18px;
