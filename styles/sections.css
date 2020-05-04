@@ -1,13 +1,16 @@
 /*under hero*/
 
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 .list-features {
     list-style-type: none;
     text-align: center;
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
     padding-left: 0;
+    margin: 0;
 }
 
 .list-features li:not(:last-child) {
@@ -68,7 +71,6 @@
 }
 
 
-
 .popular img {
     display: block;
     box-shadow: 1px 2px 7px #E5E5E5;
@@ -113,10 +115,6 @@
 }
 
 
-
-
-
-
 /*latest news section*/
 
 .latest-news {
@@ -143,14 +141,13 @@
 }
 
 
-
-
-.card-desc{
+.card-desc {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 20px;
 
 }
+
 .card-desc h5 {
     margin: 0;
     font-size: 16px;
