@@ -1,4 +1,8 @@
 /*under hero*/
+
+img {
+    display: block;
+}
 .company-features {
     list-style-type: none;
     text-align: center;
@@ -81,10 +85,11 @@
     background-color: #ffffff;
 }
 
-.wrapper-popular:last-child .popular:last-child{
+.popular2{
     display: flex;
     padding: 50px 270px 50px 270px;
     flex-direction: row-reverse;
+    background-color: #fff;
 }
 
 .wrapper-popular:last-child section:last-child  {
@@ -92,9 +97,65 @@
     padding-right: 80px;
 }
 
-/*.popular-sec {*/
-/*    width: 100%;*/
-/*    padding: 0 200px 0 200px;*/
-/*}*/
+/*latest news section*/
+
+.latest-news {
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+    padding: 30px 200px;
+}
+
+.latestNews-card {
+    flex: 1;
+    display: flex;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.latest-news section {
+    flex: 1;
+}
+
+.card-desc{
+    margin: auto 0;
+    padding:  0 40px;
+}
+.card-desc h5 {
+    margin: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #777;
+
+}
+
+.card-desc h5::after {
+    display: block;
+    content: "";
+    width: 40px;
+    border-bottom: 3px solid #E5E5E5;
+    margin: 20px 0;
+}
+
+.card-desc p {
+    margin: 0;
+}
+
+.news-time {
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    border: 2px solid #446084;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+
+.news-time span {
+    display: block;
+
+    color: #446084;
+}
 
 
